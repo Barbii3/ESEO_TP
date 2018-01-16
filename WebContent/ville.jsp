@@ -33,7 +33,7 @@
             </tr>
             <c:forEach var="ville" items="${listVille.rows}">
                 <tr>
-                    <td><c:out value="${ville.Code_commune_INSEE}" /></td>
+                    <td><c:out value="${ville.Code_commune_INSEE}"  /></td>
                     <td><c:out value="${ville.Nom_commune}" /></td>
                     <td><c:out value="${ville.Code_postal}" /></td>
                     <td><c:out value="${ville.Libelle_acheminement}" /></td>
