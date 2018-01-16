@@ -45,7 +45,7 @@ public class townDisplay {
 	    }
 	    catch (Exception e)
 	    {
-	      System.err.println("Got an exception! ");
+	      System.err.println("Une exception a été trouvée !");
 	      System.err.println(e.getMessage());
 	    }
 	  }
